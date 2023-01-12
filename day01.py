@@ -1,4 +1,14 @@
-# (100F -32) * 5/9= 37.778c
-fahrenheit = float(input('화씨 온도 : '))
-celsius = (fahrenheit-32.0) * (5.0/9.0)
-print(f'화씨 온도 {fahrenheit}는 섭씨 온도 {celsius}입니다.')
+#교재 countdown 예제
+#for countdown in 5,4,3,2,1,'hey!!':
+#    print(countdown)
+
+
+countdown_list = [5,4,3,2,1,'hey!!']
+for countdown in countdown_list:
+    print(countdown)
+    print(countdown_list[2])
+    print(countdown_list[-1])
+#리스트 이용 반복문
+
+#[] = 리스트
+#{} = 딕셔너리
